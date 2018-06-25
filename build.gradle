@@ -1,0 +1,17 @@
+plugins {
+  id 'com.github.sherter.google-java-format' version '0.6'
+  id 'war'
+  id 'java'
+  id 'eclipse'
+}
+
+dependencies {
+    compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.27'
+    compile  'org.glassfish.jersey.inject:jersey-hk2:2.27'
+    compile 'org.glassfish.jersey.media:jersey-media-json-jackson:2.27'
+    testCompile 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
